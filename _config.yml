@@ -1,4 +1,4 @@
-title: Eduardo Bouças
+title: kapil chaudhary
 email: mail@eduardoboucas.com
 description: "Software engineer with a crush on the web"
 baseurl: ""
@@ -17,7 +17,7 @@ exclude:
 paginate: 9
 paginate_path: "/page/:num/"
 
-googleAnalyticsId: UA-54012006-1  
+# googleAnalyticsId:   
 
 gems:
   - jekyll-paginate
@@ -46,4 +46,4 @@ port:    4100
 host:    0.0.0.0
 
 # Staticman
-staticmanUrl: https://api.staticman.net/v2/entry/eduardoboucas/eduardoboucas.github.io/master/comments
+# staticmanUrl: 
