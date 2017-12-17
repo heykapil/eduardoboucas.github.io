@@ -2,9 +2,11 @@
 layout: post
 title: Tech Behind Contact Form
 categories: blog
-description: >
- Today , i'm going to tell you how i created this lovely [contact form](/contact).
+tags: contact form netlify tufte
+series: "contact form"
+queued: "17 Dec"
 ---
+Today , I'm going to tell you how i created this lovely [contact form](/contact).
 <!--more-->
 ## Table of Contents
 {:.no_toc}

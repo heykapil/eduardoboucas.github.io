@@ -28,7 +28,7 @@ excerpt_separator: <!--more-->
 
 collections:
   tv:
-    output: true
+    output: false
 
 defaults:
   - scope:
