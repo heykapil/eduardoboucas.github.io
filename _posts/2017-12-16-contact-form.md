@@ -9,7 +9,7 @@ Today , I'm going to tell you how i created this lovely [contact form](/contact)
 <!--more-->
 ## Table of Contents
 {:.no_toc}
-0. TOC
+- TOC
 {:toc}
 
 
@@ -109,11 +109,9 @@ Tufte CSS is inspired from Edward Tufte’s books and handouts. It was created b
 
 you will be thinking that how background color of contact form is changed from red to white. i've modified a part of _tufte css_ to change its background color to light red . it is using _custom css_ via `section` attribute and `class` tag as defined in starting of _custom css_.
 
-~~~html
 
-    <section class="bg-red">
+    `<section class="bg-red">`
 
-~~~
 
 #### Code
 
