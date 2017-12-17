@@ -5,7 +5,7 @@ categories: blog
 tags: contact form netlify tufte
 series: "contact form"
 ---
-Today , I'm going to tell you how i created this lovely [contact form](/contact).
+Today , I'm going to tell you how i created this lovely [contact form](https://contact.sirkapil.me/)
 <!--more-->
 ## Table of Contents
 {:.no_toc}
@@ -29,7 +29,6 @@ Can't find the form code ? No worries , here it is :
 ## Form Code 
 
 ~~~html
-
    <form id="contactform" action="#" name="contactform" netlify>
 <section class="bg-red">
   <h2>Dear Kapil,</h2>
@@ -58,7 +57,6 @@ Can't find the form code ? No worries , here it is :
       <small><span style="color:#15B6B1">Launch</span></small>
     </button>
    </form>
-
 ~~~
 
 ## This Form Uses :
@@ -96,12 +94,12 @@ It is android app that I use to make suitable changes (commit) to my github repo
 ### Erlen's Codepen
 
 Major of source code is taken from  [Erlen's Codepen](https://www.erlen.co.uk/minimal-contact-form-with-expanding-textareas/).
-I have made most of changes in  _contact.js_ , _contact.css_ and a few changes in _index.html_ file. Mostly changes are to make it compatible with _tufte css._
+I have made most of changes in _contact.css_ and a few changes in _index.html_ file. Mostly changes are to make it compatible with _tufte css._
 
 ### Tufte CSS
 
 Tufte CSS is inspired from Edward Tufte’s books and handouts. It was created by Dave Liepmann. This is github repository of _tufte css_
-[github.com/edwardtufte/tufte-css](//github.com/edwardtufte/tufte-css)
+[github.com/edwardtufte/tufte-css](//github.com/edwardtufte/tufte-css/)
 
 >"I like _tufte css_ and implemented it in many blog posts. The best thing of tufte css is it's compatibility with side notes and marginal notes. Typography is really cool and looks amazing with any mathematical equation. it's background is clean and eye friendly , moreover looks like content is written on any sheet of paper. Another thing that i love about _tufte css_ is that it is printer friendly and looks great in pdf or printed format."
 
@@ -109,16 +107,16 @@ Tufte CSS is inspired from Edward Tufte’s books and handouts. It was created b
 
 you will be thinking that how background color of contact form is changed from red to white. i've modified a part of _tufte css_ to change its background color to light red . it is using _custom css_ via `section` attribute and `class` tag as defined in starting of _custom css_.
 
-
-    `<section class="bg-red">`
-
+~~~html
+    <section class="bg-red">
+~~~
 
 #### Code
+{:.no_toc}
 
 I'm giving you code of _custom css_.  you can change the background color via hsla or hex format. use any color picker tool and modify the _custom css_ for any colourful background.
 
 ~~~css
-
 .bg-red {
   box-shadow: 0 0 200px 100px hsla(9, 100%, 95%, 1);
   background-color: hsla(9, 100%, 95%, 1);
@@ -133,7 +131,6 @@ I'm giving you code of _custom css_.  you can change the background color via hs
          background-repeat: no-repeat, no-repeat, repeat-x;
          text-shadow: 0.03em 0 hsla(9, 100%, 95%, 1), -0.03em 0 hsla(9, 100%, 95%, 1), 0 0.03em hsla(9, 100%, 95%, 1), 0 -0.03em hsla(9, 100%, 95%, 1), 0.06em 0 hsla(9, 100%, 95%, 1), -0.06em 0 hsla(9, 100%, 95%, 1), 0.09em 0 hsla(9, 100%, 95%, 1), -0.09em 0 hsla(9, 100%, 95%, 1), 0.12em 0 hsla(9, 100%, 95%, 1), -0.12em 0 hsla(9, 100%, 95%, 1), 0.15em 0 hsla(9, 100%, 95%, 1), -0.15em 0 hsla(9, 100%, 95%, 1);
          background-position: 0% 93%, 100% 93%, 0% 93%; }
-
 ~~~
 
 ## Final Words 
