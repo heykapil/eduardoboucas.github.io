@@ -1,6 +1,6 @@
 {
-  "name": "eduardoboucas.com",
-  "version": "1.0.0",
+  "name": "Kapil Chaudhary",
+  "version": "1.0.1",
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eduardoboucas/eduardoboucas.github.io.git"
+    "url": "git+https://github.com/sirkapil/eduardoboucas.github.io.git"
   },
   "keywords": [
     "front-end",
     "css",
     "sass"
   ],
-  "author": "Eduardo Boucas <mail@eduardoboucas.com> (https://eduardoboucas.com/)",
+  "author": "kapil chaudhary <sirkapil@india.com> (https://eduardoboucas.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eduardoboucas/eduardoboucas.github.io/issues"
+    "url": "https://github.com/sirkapil/eduardoboucas.github.io/issues"
   },
-  "homepage": "https://github.com/eduardoboucas/eduardoboucas.github.io#readme",
+  "homepage": "https://github.com/sirkapil/eduardoboucas.github.io#readme",
   "dependencies": {
     "include-media": "^1.4.1",
     "include-media-columns": "^1.1.0",
