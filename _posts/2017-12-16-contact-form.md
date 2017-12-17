@@ -135,8 +135,11 @@ I'm giving you code of _custom css_.  you can change the background color via hs
 
 ## Final Words 
 
-Whatever i've used in this contact form is freely available on internet for personal use. However , it is my _dharma_ to give credit to such amazing persons without whom it couldn't be possible.
+Any suitable changes/suggestions are welcome. Feel free to create an issue [here](//github.com/sirkapil/contact/issues).
 
-You can also use any of above feature and modify accordingly.
+Whatever i've used in this contact form is freely available on internet for personal use. However , it is my _dharma_ to give credit to such amazing persons without whom it was not possible.
+
+You can also use any of above things and modify accordingly. Don't forget to put credits section in your article. Mention credit to those who have made contributions to this work so that they receive the acknowledgement they deserve.
+
 
 That's all for today ! <!--end-->
