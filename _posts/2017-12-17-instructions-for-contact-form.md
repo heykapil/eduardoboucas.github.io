@@ -38,4 +38,6 @@ We respect your privacy and never disclose your personal information to third pa
 
 The contact form uses Let's encrypt SSL certificate and enforces <span style="color:green">https</span>. you can check green bar of your browser. It means your connection to contact form is encrypted. Moreover, it uses <span style="color:green">HSTS</span> and HTTP2 that means form is available with encrypted connection only. Connection uses TLS 1.2 and encrypted using a modern cipher suite.<br />
 **Connection encrypted by , AES 128 GCM**
-{:.message} <!--tomb-->
+{:.message}
+
+That's all for Today ! <!--tomb-->
