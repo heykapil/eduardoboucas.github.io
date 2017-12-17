@@ -14,7 +14,7 @@ exclude:
   - node_modules
   - vendor
 
-paginate: 9
+paginate: 1
 paginate_path: "/page/:num/"
 
 # googleAnalyticsId:   
