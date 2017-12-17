@@ -88,7 +88,6 @@ This is link to Github Repository , you can clone it or fork it ! Any suitable c
 I'm using netlify to host my form , it deploy instanly any commit made to github repository. the data you submit in contact form is saved to my netlify account and they inform me about any form submission through mail along with a copy of your message.
 
 >"As Github Pages serves static sites and has limited features so you don't have inbuilt contact form option there. Therefore, you have to rely on third party for contact form submission , but most of them sell/exchange private information of users submitted through contact form , even  google form uses private information for advertising. that's why , Netlify was my choice to store contact form data."
-{:.message}
 
 ### MrHyde 
 
@@ -105,7 +104,6 @@ Tufte CSS is inspired from Edward Tufte’s books and handouts. It was created b
 [github.com/edwardtufte/tufte-css](//github.com/edwardtufte/tufte-css)
 
 >"I like _tufte css_ and implemented it in many blog posts. The best thing of tufte css is it's compatibility with side notes and marginal notes. Typography is really cool and looks amazing with any mathematical equation. it's background is clean and eye friendly , moreover looks like content is written on any sheet of paper. Another thing that i love about _tufte css_ is that it is printer friendly and looks great in pdf or printed format."
-{:.message}
 
 ### Custom CSS
 
@@ -113,12 +111,11 @@ you will be thinking that how background color of contact form is changed from r
 
 ~~~html
 
-<section class="bg-red">
+    <section class="bg-red">
 
 ~~~
 
 #### Code
-{:.no_toc}
 
 I'm giving you code of _custom css_.  you can change the background color via hsla or hex format. use any color picker tool and modify the _custom css_ for any colourful background.
 
@@ -138,27 +135,6 @@ I'm giving you code of _custom css_.  you can change the background color via hs
          background-repeat: no-repeat, no-repeat, repeat-x;
          text-shadow: 0.03em 0 hsla(9, 100%, 95%, 1), -0.03em 0 hsla(9, 100%, 95%, 1), 0 0.03em hsla(9, 100%, 95%, 1), 0 -0.03em hsla(9, 100%, 95%, 1), 0.06em 0 hsla(9, 100%, 95%, 1), -0.06em 0 hsla(9, 100%, 95%, 1), 0.09em 0 hsla(9, 100%, 95%, 1), -0.09em 0 hsla(9, 100%, 95%, 1), 0.12em 0 hsla(9, 100%, 95%, 1), -0.12em 0 hsla(9, 100%, 95%, 1), 0.15em 0 hsla(9, 100%, 95%, 1), -0.15em 0 hsla(9, 100%, 95%, 1);
          background-position: 0% 93%, 100% 93%, 0% 93%; }
-
-.rounded-corners {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  
-}
-
-body {
-  background-color: hsla(60, 100%, 97%, 1);
-}
-
-#shortcut {
-  position: fixed;
-  top: 0.0em;
-  left: calc( -112.391px + 1.5em );
-  transform: rotate( -90deg );
-  transform-origin: bottom right;
-  /* background-color: hsla(60, 100%, 97%, 1); /*/
-}
 
 ~~~
 
