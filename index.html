@@ -7,7 +7,7 @@ layout: default
     {% assign posts = posts | push: post %}
   {% endif %}
 {% endfor %}
-{% assign totalPages = site.posts | size | minus: 1 | divided_by: 9 %}
+{% assign totalPages = site.posts | size | minus: 1 | divided_by: 1 %}
 {% assign totalPagesRemainder = site.posts | size | minus: 1 | modulo: site.paginate %}
 
 {% if totalPagesRemainder > 0 %}
