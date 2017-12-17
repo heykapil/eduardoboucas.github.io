@@ -40,4 +40,4 @@ The contact form uses Let's encrypt SSL certificate and enforces <span style="co
 **Connection encrypted by , AES 128 GCM**
 {:.message}
 
-That's all for Today ! <!--tomb-->
+That's all for today ! <!--end-->

@@ -93,7 +93,7 @@ layout: default
           {% endif %}
         {% endif %}
         
-        {{ content | replace: '<!--tomb-->', ' &#8718;'}}
+        {{ content | replace: '<!--end-->', ' &#8718;'}}
 
         {% if nextPost and nextPost.queued == null %}
           <p>
