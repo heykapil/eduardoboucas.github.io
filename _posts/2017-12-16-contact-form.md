@@ -16,7 +16,7 @@ Today , I'm going to tell you how i created this lovely [contact form](/contact)
 
 ## Introduction
 
-Today , i'm going to tell you how i created this lovely [contact form](/contact). You can easily check it's source code through any online source code checker or by pressing CTRL+U (pc users). However, i mostly use w3 to inspect the source code.
+Today , i'm going to tell you how i created this lovely [contact form](//contact.sirkapil.me). You can easily check it's source code through any online source code checker or by pressing Ctrl+U (pc users). However, i mostly use w3 to inspect the source code.
 
 Online source code is here: 
 
