@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Instructions for contact form
-categories: blog
+categories: code
 tags: contact form netlify instructions
 series: "contact form"
 ---

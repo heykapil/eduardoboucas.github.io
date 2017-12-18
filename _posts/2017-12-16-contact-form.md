@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tech Behind Contact Form
-categories: blog
+categories: code
 tags: contact form netlify tufte
 series: "contact form"
 ---
