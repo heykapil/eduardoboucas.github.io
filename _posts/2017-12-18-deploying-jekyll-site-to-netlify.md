@@ -4,7 +4,6 @@ title: How to deploy jekyll site to netlify
 categories: code
 tags: jekyll netlify deploy
 series: "netlify"
-queued: "1 feb"
 ---
 
 Jekyll sites are awesome , but Jekyll + Netlify sites are super dooper awesome.<!--more-->
