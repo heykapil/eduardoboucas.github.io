@@ -5,7 +5,7 @@ categories: code
 tags: contact form netlify tufte
 series: "contact form"
 ---
-Today , I'm going to tell you how i created this lovely [contact form](https://contact.sirkapil.me/)
+Today , I'm going to tell you how [i](//facebook.com/kapilrch) created this lovely [contact form](https://contact.sirkapil.me/)
 <!--more-->
 ## Table of Contents
 {:.no_toc}
@@ -18,7 +18,7 @@ Today , I'm going to tell you how i created this lovely [contact form](https://c
 
 Today , i'm going to tell you how i created this lovely [contact form](//contact.sirkapil.me). You can easily check it's source code through any online source code checker or by pressing Ctrl+U (pc users). However, i mostly use w3 to inspect the source code.
 
-Online source code is here: 
+Online source code is here:
 
 1.[w3.org](https://validator.w3.org/nu/?showsource=yes&showimagereport=yes&doc=https%3A%2F%2Fcontact.sirkapil.me%2F)
 
@@ -26,7 +26,7 @@ Online source code is here:
 
 Can't find the form code ? No worries , here it is :
 
-## Form Code 
+## Form Code
 
 ~~~html
    <form id="contactform" action="#" name="contactform" netlify>
@@ -87,7 +87,7 @@ I'm using netlify to host my form , it deploy instanly any commit made to github
 
 >"As Github Pages serves static sites and has limited features so you don't have inbuilt contact form option there. Therefore, you have to rely on third party for contact form submission , but most of them sell/exchange private information of users submitted through contact form , even  google form uses private information for advertising. that's why , Netlify was my choice to store contact form data."
 
-### MrHyde 
+### MrHyde
 
 It is android app that I use to make suitable changes (commit) to my github repository. It lets me clone my github repository in internal storage of my phone and i can easily play with codes even without internet. I can push back changes to my github repository whenever connected to internet. and those changes are live instantly (few sec.)
 
@@ -133,7 +133,7 @@ I'm giving you code of _custom css_.  you can change the background color via hs
          background-position: 0% 93%, 100% 93%, 0% 93%; }
 ~~~
 
-## Final Words 
+## Final Words
 
 Any suitable changes/suggestions are welcome. Feel free to create an issue [here](//github.com/sirkapil/contact/issues).
 
