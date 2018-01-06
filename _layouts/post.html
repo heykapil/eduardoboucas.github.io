@@ -1,8 +1,8 @@
 ---
-layout: blog
+layout: default
 ---
 
-
+{% include partials/post-navigation.html %}
 
 <main id="main" role="main" class="main">
   {% if page.queued == null %}
@@ -61,14 +61,14 @@ layout: blog
             {% assign seriesPosts = seriesPosts | split: '|' %}
             {% assign nextPost = null %}
 
-            <p>This article is part of a series called <em>«{{ page.series }}»</em> :</p>
+            <p>This article is part of a series called <em>«{{ page.series }}»</em>:</p>
 
             <ul>
             {% for seriesPost in seriesPosts %}
               {% assign seriesPostInt = seriesPost | times: 1 %}
               {% assign post = site.posts[seriesPostInt] %}
 
-              {% if post.date > page.date %}
+              {% if post.date > page.date and nextPost == null %}
                 {% assign nextPost = post %}
               {% endif %}
 
@@ -95,14 +95,16 @@ layout: blog
 
         {{ content | replace: '<!--end-->', ' &#8718;'}}
 
-
         {% if nextPost and nextPost.queued == null %}
           <p>
             <em>Next in the series: <a href="{{ nextPost.url }}">{{ nextPost.title }}</a></em>
           </p>
         {% endif %}
-        {% include partials/post-navigation.html %}
       </div>
+
+      {% if page.disable-comments != true %}
+        {% include partials/post-comments.html %}
+      {% endif %}
     </article>
   {% endif %}
 </main>
