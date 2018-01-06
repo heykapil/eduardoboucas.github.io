@@ -15,7 +15,7 @@ layout: blog
 {% endif %}
 <main id="main" role="main" class="main constrain" data-paginator-current="{{ paginator.page }}" data-paginator-total="{{ totalPages }}">
   {% assign postsPerPage = site.paginate %}
-  
+
   {% if paginator.page == 1 %}
     {% assign postsOffset = 0 %}
     {% assign postsPerPage = postsPerPage | plus: 1 %}
