@@ -5,7 +5,7 @@ categories: code
 tags: contact form netlify tufte
 series: "contact form"
 ---
-Today , I'm going to tell you how [i](//facebook.com/kapilrch) created this lovely [contact form](https://contact.sirkapil.me/)
+Today , I'm going to tell you how i created this lovely [contact form](https://contact.sirkapil.me)
 <!--more-->
 ## Table of Contents
 {:.no_toc}
