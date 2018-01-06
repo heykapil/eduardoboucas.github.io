@@ -3,10 +3,14 @@ layout: blog
 ---
 {% assign posts = '' | split: '/' %}
 
+<main id="main" role="main" class="main constrain">
   <ul>
 {% for post in site.posts %}
-<li>
+<div class="js-posts">
+  <li>
 <a href="{{ post.url }}">{{ post.title }}</a>
 </li>
+</div>
 {% endfor %}
 </ul>
+</main>
