@@ -9,7 +9,7 @@ Hello there,
 few days back, i was looking to add an icon after every outgoing links in my website to let visitors know that link is outgoing.
 it was very simple, i need to add a `css` file in my page.
 <!--more-->
-i thought of adding icons from [FontAwesome](//FontAwesome.io).
+i thought of adding icons from [FontAwesome](//fontawesome.io).
 add the following code inside your `head` tag of your `html` page
 ~~~html
 
