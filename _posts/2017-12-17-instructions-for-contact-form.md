@@ -2,7 +2,6 @@
 layout: post
 title: Instructions for contact form
 categories: code
-tags: contact form netlify instructions
 series: "contact form"
 ---
 This post is all about instruction to fill out contact form.
