@@ -15,7 +15,7 @@ layout: none
 	<style>
 		</style>
 </head>
-<body background="//cdn1.netlify.com/bg/img/b13.png">
+<body background="//cdn1.netlify.com/bg/img/b2.png">
   <header>
     <h1>Posts</h1>
     <nav>
@@ -33,8 +33,8 @@ layout: none
   <ul>
 {% for post in site.posts %}
 <div class="js-posts">
-  <li>
-<a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.date }}<br><br>
+  <li class="square">
+<a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.date | date: "%A , %-d %B %Y" }}<br><br>
 </li>
 </div>
 {% endfor %}
