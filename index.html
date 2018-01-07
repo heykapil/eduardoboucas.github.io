@@ -15,8 +15,19 @@ layout: none
 	<style>
 		</style>
 </head>
-<body background="//cdn1.netlify.com/bg/img/b28.png">
-  <header>
+<body>
+	<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js" integrity="sha256-icjghcPaibMf1jv4gQIGi5MeWNHem2SispcorCiCfSg=" crossorigin="anonymous">
+</script>
+<script src="app.js"></script>
+<header>
     <h1>Posts</h1>
     <nav>
   		<ul class="nav">
@@ -45,12 +56,4 @@ layout: none
 </footer>
 <script type="text/javascript"> var vglnk = { key: 'f7934583aefe05670f5985fddb16baaa' }; (function(d, t) { var s = d.createElement(t); s.type = 'text/javascript'; s.async = true; s.src = '//cdn.viglink.com/api/vglnk.js'; var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r); }(document, 'script'));
 </script>
-<script>
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
-</script>
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js" integrity="sha256-icjghcPaibMf1jv4gQIGi5MeWNHem2SispcorCiCfSg=" crossorigin="anonymous"></script>
-</body>
 </html>
