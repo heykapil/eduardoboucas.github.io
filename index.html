@@ -33,17 +33,16 @@ layout: none
 	  <ul>
 	{% for post in site.posts %}
 
-	 <div class="particles-js"> <li class="square">
+	 <div class="particles-js"></div>
+	 <li class="square">
 	<a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.date | date: "%A , %-d %B %Y" }}<br><br>
 	</li>
-</div>
 	{% endfor %}
 	</ul>
 
 	<footer>
 	<p>Maintained by <a href="https://contact.sirkapil.me" class="no_icon">Kapil Chaudhary</a></p>
 	</footer>
-</div>
 	<script type="text/javascript"> var vglnk = { key: 'f7934583aefe05670f5985fddb16baaa' }; (function(d, t) { var s = d.createElement(t); s.type = 'text/javascript'; s.async = true; s.src = '//cdn.viglink.com/api/vglnk.js'; var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r); }(document, 'script'));
 	</script>
 <!-- particles.js container -->
