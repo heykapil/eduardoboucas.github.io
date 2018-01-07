@@ -16,7 +16,6 @@ layout: none
 		</style>
 </head>
 <body>
-	<div class="particles-js">
 <header>
 	    <h1>Posts</h1>
 	    <nav>
@@ -34,10 +33,10 @@ layout: none
 	  <ul>
 	{% for post in site.posts %}
 
-	  <li class="square">
+	 <div class="particles-js"> <li class="square">
 	<a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.date | date: "%A , %-d %B %Y" }}<br><br>
 	</li>
-
+</div>
 	{% endfor %}
 	</ul>
 
