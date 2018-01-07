@@ -17,43 +17,48 @@ layout: none
 </head>
 <body>
 	<div class="count-particles">
-  <span class="js-count-particles">--</span> particles
+  <span class="js-count-particles">--</span><header>
+	    <h1>Posts</h1>
+	    <nav>
+	  		<ul class="nav">
+	  			<li><a href="/about">About</a></li>
+	  			<li><a href="/blog"></a>Blog</li>
+	  			<li><a href="/links">Links</a></li>
+	  			<li><a href="/sitemap">Sitemap</a></li>
+	  			<li><a href="./">Home</a></li>
+	  		</ul>
+	  	</nav>
+	  </header>
+	{% assign posts = '' | split: '/' %}
+
+	  <ul>
+	{% for post in site.posts %}
+
+	  <li class="square">
+	<a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.date | date: "%A , %-d %B %Y" }}<br><br>
+	</li>
+
+	{% endfor %}
+	</ul>
+	<div class="particles-js"></div>
+	<footer>
+	<p>Maintained by <a href="https://contact.sirkapil.me" class="no_icon">Kapil Chaudhary</a></p>
+	</footer>
+	<script type="text/javascript"> var vglnk = { key: 'f7934583aefe05670f5985fddb16baaa' }; (function(d, t) { var s = d.createElement(t); s.type = 'text/javascript'; s.async = true; s.src = '//cdn.viglink.com/api/vglnk.js'; var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r); }(document, 'script'));
+	</script> 
 </div>
 
 <!-- particles.js container -->
 <div id="particles-js"></div>
 
 <!-- scripts -->
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js" integrity="sha256-icjghcPaibMf1jv4gQIGi5MeWNHem2SispcorCiCfSg=" crossorigin="anonymous">
+<script src="/particles.js">
 </script>
-<script src="app.js"></script>
-<header>
-    <h1>Posts</h1>
-    <nav>
-  		<ul class="nav">
-  			<li><a href="/about">About</a></li>
-  			<li><a href="/blog"></a>Blog</li>
-  			<li><a href="/links">Links</a></li>
-  			<li><a href="/sitemap">Sitemap</a></li>
-  			<li><a href="./">Home</a></li>
-  		</ul>
-  	</nav>
-  </header>
-{% assign posts = '' | split: '/' %}
-
-  <ul>
-{% for post in site.posts %}
-
-  <li class="square">
-<a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.date | date: "%A , %-d %B %Y" }}<br><br>
-</li>
-
-{% endfor %}
-</ul>
-<div class="particles-js"></div>
-<footer>
-<p>Maintained by <a href="https://contact.sirkapil.me" class="no_icon">Kapil Chaudhary</a></p>
-</footer>
-<script type="text/javascript"> var vglnk = { key: 'f7934583aefe05670f5985fddb16baaa' }; (function(d, t) { var s = d.createElement(t); s.type = 'text/javascript'; s.async = true; s.src = '//cdn.viglink.com/api/vglnk.js'; var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r); }(document, 'script'));
+<script>
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', '/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 </script>
+</body>
 </html>
